@@ -3,38 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>LM 10 LP</title>
   </head>
   <body>
     <section>
       <ul class="nav">
-        <li>Home</li>
-        <li>Top Players</li>
-        <li>About</li>
-        <li>Stats</li>
-        <li>Contact Us</li>
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">Top Players</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Stats</a></li>
+        <li><a href="#">Contact Us</a></li>
       </ul>
-
-      <div class="content">
-        <h4>Lionel</h4>
-        <h1>Messi</h1>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
-          quod a. Dolores repellat a excepturi sequi, quia consequuntur ullam
-          eos esse.
-        </p>
-        <button class="button">Watch video</button>
+      <div class="content-wrapper">
+        <div class="path">
+          <h3>Top Players >> Lionel Messi</h3>
+        </div>
+        <div class="content">
+          <h4>Lionel</h4>
+          <h1>Messi</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
+            recusandae maxime tempore sint aliquam qui. A praesentium ad, rem
+            debitis numquam tenetur eveniet hic magnam blanditiis libero nam
+            odio soluta!
+          </p>
+          <div class="button-container">
+            <div class="button-content">Watch video</div>
+          </div>
+        </div>
       </div>
 
       <div class="img-container">
         <img src="./lm.png" alt="messi" />
       </div>
+
       <div class="social">
         <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Instagram</li>
+          <li>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram-square fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+          </li>
         </ul>
       </div>
     </section>
